@@ -59,25 +59,31 @@
     <div class="main clearfix">
     <div class="clear"></div>
         <div class="left main_zak">
-            <form method="post" action="#" target="_blank" class="zakaz zak_inner">
-    <h2>Обратный звонок!</h2>
-    <div class="skidka">Мы вам перезвоним</div>
-    <p>Введите свой мобильный телефон</p>
+            <form method="post" action="mail.php" class="zakaz zak_inner">
+              
     <div class="telephone">
         <h4>Телефон</h4>
-        <span>+7</span>
-        <div class="name">
-            <input type="text" name="phonenumber" class="clearOnFocus" value="">
-
-            <div class="il"></div>
-            <div class="ir"></div>
-        </div>
+        
+        <input type="text" name="phone" id="textfield" />
+        
+         <h4>Имя</h4>
+        
+        <input type="text" name="email" id="textfield" />
+        
+         <h4>Ваш вопрос</h4>
+         <textarea name="question" cols="30" rows="4" id="textfield"></textarea>
+        
     </div>
     <div class="zak_but">
-        <a href='http://q-2.su/anketa.php'><div class="zakaz_but"></div></a>
-        <span>Перезвонить</span>
+        <div class="submit_holder">
+          <input type="image" name="imageField" id="imageField" src="img/sbmt2.png" />
+        </div>
+       
+        
+        
+        
     </div>
-</form>
+          </form>
             <div id="admin">
     
 </div>
@@ -110,6 +116,7 @@
     <div class="lg"></div>
 </div>
     <div class="map_wrap">
+    <div class="map_heading"><strong>Адреса и контакты агентов Таксик</strong></div>
     <div class="map">
         <div class="area1_wrap">
             <div class="area1"></div>
