@@ -1,0 +1,20 @@
+body{width:auto; height:auto; overflow:visible;}
+
+.ltc {position:absolute;top:-9px;left:-9px;width:11px;height:11px;background:url(../img/ltc.png) no-repeat 0 0;}
+.rtc {position:absolute;top:-9px;right:-10px;width:11px;height:11px;background:url(../img/rtc.png) no-repeat 0 0;}
+.lbc {position:absolute;bottom:-11px;left:-9px;width:11px;height:12px;background:url(../img/lbc.png) no-repeat 0 0;}
+.rbc {position:absolute;bottom:-11px;right:-10px;width:11px;height:12px;background:url(../img/rbc.png) no-repeat 0 0;}
+
+.tg {position:absolute;top:-9px;left:0;height:11px;background:url(../img/tg.png) repeat-x 0 0;width:100%;}
+.bg {position:absolute;bottom:-11px;left:0;height:12px;background:url(../img/bg.png) repeat-x 0 0;width:100%;}
+.rg {position:absolute;top:0;right:-10px;width:11px;background:url(../img/rg.png) repeat-y 0 0;height:100%;}
+.lg {position:absolute;top:0;left:-9px;width:11px;background:url(../img/lg.png) repeat-y 0 0;height:100%;}
+
+.zakaz .il { width: 0px; }
+.zakaz .ir { width: 0px; }
+
+.footer .searchbox { border-radius: 0px;  }
+.footer .searchsubmit { margin-left: -4px; }
+
+.mail-ipad { width: 217px; }
+.nomer { font-size: 26px; font-family: sans-serif; }

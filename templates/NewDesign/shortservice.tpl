@@ -1,0 +1,1 @@
+<li>[full-link]{title}[/full-link]</li>

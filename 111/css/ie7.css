@@ -1,0 +1,120 @@
+@charset "utf-8";
+.il { top:1px; left:0; }
+.ir { width:5px; height:21px; position:absolute; top:1px; right:0; background:url(../img/input-right.png) no-repeat left top; }
+select il { top:-1px; }
+.order .dl select, .order .sr select { width:100%; height:27px; border:none; background:url(../img/input-bg.png) repeat-x left top; padding:3px 0 0 0; }
+.ten { background:url(../img/scale-bg.png) no-repeat center top; padding:28px 0 0 0; position:absolute; left:0; top:34px; font-size:10px; }
+.three { background:url(../img/strih.png) no-repeat center top; padding:6px 0 0 0; position:absolute; left:15%; top:56px; font-size:10px; }
+.six { background:url(../img/strih.png) no-repeat center top; padding:6px 0 0 0; position:absolute; left:30%; top:56px; font-size:10px; }
+.one { background:url(../img/strih.png) no-repeat center top; padding:6px 0 0 0; position:absolute; left:50%; top:56px; font-size:10px; }
+.two { background:url(../img/scale-bg.png) no-repeat center top; padding:28px 0 0 0; position:absolute; right:0; top:34px; font-size:10px; }
+.tel .nomer { line-height:45px; }
+.order .dr .name input { border:none !important; }
+#ws_1 .name { margin-bottom:10px; }
+#ws_1 .name .il, #ws_1 .name .ir, #ws_1 .name .ssr, .coord_wrap .ssr, .coord_wrap .il { display:none; }
+.il { width:5px; height:21px; position:absolute; top:1px; left:0px; background:url(../img/input-left.png) no-repeat left top; }
+.ir { width:5px; height:21px; position:absolute; top:1px; right:0px; background:url(../img/input-right.png) no-repeat left top; }
+.sr .il { left:-4px; top:0; }
+.dat .il { left:-5px; top:1px; }
+.dat .ir { top:1px; right:-5px; }
+.dat .dr .il { top:1px; left:-5px; }
+.dat .dr .ir { top:1px; right:-5px; }
+.sl .il { left:-4px; }
+.zagruz .il { top:-1px; background:url(../img/input-leftie.png) 0px 1px; }
+.zagruz option { height:29px; border:none !IMPORTANT; }
+.zagruz select { height:29px; border:none !IMPORTANT; }
+#system { padding-top:200px; }
+#cbox { }
+#cbox p { position:relative; top:-10px; left:-5px; }
+#admin .il { left:-5px; }
+#admin .ir { right:-5px; }
+.bagaj .slider a { background-position:expression(this.nextSibling?'left':'right');
+}
+.navy .karent { float:left; height:25px; }
+.sub-level li { float:none; }
+.navy li a { float:left; height:25px; line-height:25px; }
+.forward { line-height:25px; }
+.inner table .rb td.lb { background:url(../img/lb.gif) #F1F1F0 no-repeat right bottom; }
+.inner table .rb { background-color:#f1f1f0; }
+#inner table .rb td.lb { background:url(../img/lb.gif) #F1F1F0 no-repeat right bottom; }
+.rc { background:url(../img/rb.gif) no-repeat left bottom; width:9px; height:7px; position:absolute; bottom:0px; left:17.9%; }
+.ot { width:40%; }
+.bagaj .il { left:-5px; }
+.bagaj .ir { right:-5px; }
+.atl, .atr { top:1px; }
+.abl, .abr { bottom:1px; }
+#ws_1 .order p { margin:5px 0 1px 0; }
+#ws_1 .order select { width:100%; }
+#ws_1 .order { width:91%; }
+#wrapper { overflow:visible; overflow-x:hidden; overflow-y:auto; }
+.dat .dr div.name1 .il { position:absolute; left:2px; }
+.dat .dr div.name1 .ir { position:absolute; right:-10px; }
+#tax .opis p { margin-right:3%; }
+.bagaj p { font-size:10px; }
+#s_auto { width:100%; }
+.order h2, .order p {width:auto!important;}
+.order {padding:0 1%!important;}
+div.short>.il, div.short>.ir {display:none;}
+.area {width:95%;}
+.short {width:auto!important;}
+.short .n_sub {left:0;}
+.short2 .il {left:-4px;}
+.short2 .ir {right:-4px;}
+.tc_1 .name .il, .tc_2 .name .il, .tc_1 .name .ir, .tc_2 .name .ir {display:none;}
+#bbv .ir {float:right; margin-right:5.5%;}
+#bbv .il {left:-4px;}
+#datepicker {position:relative!important;}
+#tabs_content li, .hiddencontent {position:relative!important;}
+.order .name input {width:100%!important;}
+#load, #back {position:relative!important;}
+div.content {width:74%!important;}
+#ws_1 .order select, #ws_1 .order input {width:97%!important;}
+#inner .order .name1 .il, #inner .order .name1 .ir {display:none;} 
+#ws_1  .sbmit {text-align:center!important;}
+#ws_1 #btn_order_it {width:119px!important;}
+
+/* */
+html {overflow:auto;}
+.telephone {position:relative;zoom:1;}
+.submit_login {float:left;}
+.zakaz .name {zoom:1;display:inline;}
+.zakaz input[type="text"] {zoom:1;display:inline;}
+.il {left: -5px;}
+.ir {right: -5px;}
+.telephone span {position:relative;top:-11px;}
+#sometaxwrap {zoom:1;}
+.map {zoom:1;display:inline;}
+ul.main_navigation li a strong {background:url(../img/main_nav_ico.png) no-repeat 0 0;width:61px;height:64px;display:block;margin:0 auto 5px;position:relative;left:4px;}
+ul.main_navigation li+li a strong {background-position:-61px 0;}
+ul.main_navigation li+li+li a strong {background-position:-122px 0;}
+ul.main_navigation li+li+li+li a strong {background-position:-183px 0;left:2px;}
+ul.main_navigation li a {z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<strong></strong>'));}
+
+.zakaz h2 span {background:url(../img/helm.png) no-repeat 0 0;width:34px;height:34px;position:absolute;margin-left:-43px;}
+.zakaz h2 {z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<span></span>'));}
+
+.area1_wrap {position:relative;top:-1px;left:-133px;display:none;}
+.area2_wrap {position:relative;top:36px;left:-81px;display:none;}
+.area3_wrap {position:relative;top:0;left:-48px;display:none;}
+.area4_wrap {position:relative;top:58px;left:8px;display:none;}
+.area5_wrap {position:relative;top:134px;left:-129px;display:none;}
+.area6_wrap {position:relative;top:120px;left:-52px;display:none;}
+.area7_wrap {position:relative;top:135px;left:9px;display:none;}
+.area8_wrap {position:relative;top:170px;left:-31px;display:none;}
+.area9_wrap {position:relative;top:184px;left:-76px;display:none;}
+
+.area1_wrap div.tab_wrap {bottom:-80px;left:90px;}
+.area2_wrap div.tab_wrap {bottom:-5px;left:70px;}
+.area3_wrap div.tab_wrap {bottom:-35px;left:80px;}
+.area4_wrap div.tab_wrap {bottom:-22px;left:90px;}
+.area5_wrap div.tab_wrap {bottom:-13px;left:90px;}
+.area6_wrap div.tab_wrap {bottom:0;left:80px;}
+.area7_wrap div.tab_wrap {bottom:-35px;left:85px;}
+.area8_wrap div.tab_wrap {bottom:-52px;left:80px;}
+.area9_wrap div.tab_wrap {bottom:-26px;left:70px;}
+
+.zak_but {white-space:nowrap;width:227px;}
+.zak_but span {display:inline-block;vertical-align:middle;}
+.main {position:relative;}
+.left {position:absolute;top:0;left:0;z-index:20;}
+.left.main_zak {position:relative;top:0;left:0;}

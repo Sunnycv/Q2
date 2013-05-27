@@ -1,0 +1,159 @@
+@charset "utf-8";
+#wrapper {
+ width: expression(document.body.clientWidth < 1024? "1001px": "auto"); overflow:visible; overflow-x:hidden; overflow-y:auto; }
+body div.wrap { min-height:1154px; height:auto !important; height:1154px; }
+.footer { }
+#pasanger-act { margin:0 0 0 13%; }
+.left { float:left; height:500px; margin:0 0 0 0.32%; width:22%; }
+.content { float:left; position:relative; width:75.5%; }
+.ten, .two { top:34px; }
+.three, .six, .one { top:56px; }
+.il, .ir { top:1px; }
+.ssr, .zagruz .il, .coord_wrap .il { display:none; }
+.zagruz p { margin-top:0px; }
+#wrapper .tel { z-index:10000; right:4%; top:58px; position:absolute; }
+ul.h_m { position:relative; z-index:2; }
+.bbl { bottom:-3px; }
+.buble .bbr { right:-3px; bottom:-1px; z-index:100; }
+.tablo-r { background:transparent url(../img/tablo-ll.png) no-repeat scroll left top; height:134px; position:absolute; right:0; top:0; width:27px; }
+.f-menu ul.menur { float:right; margin-left:5%; }
+.order-l, .order-r { bottom:-9px; display:none; }
+.tmp1, .tmp2 { padding-bottom:15px; }
+.sbmit { margin-top:30px !important; }
+.order-r { right:-1px; }
+.buble .bbl { display:none; }
+.buble .bbr { display:none; }
+.buble .btr { display:none; }
+.buble .btl, .speech { display:none; }
+.tel .nomer { line-height:45px; }
+.pasanger { background:transparent url(../img/audi.png) no-repeat scroll center 38px; float:left; height:43px; line-height:16px; margin:0 0 0 13%; padding:120px 0 0; text-align:center; width:142px; }
+#bufer { float:left; height:483px; width:12%; }
+body div#wrap1 {
+ width: expression(document.body.clientWidth < 1024? "1001px" : "auto"); background:#FFA200 url(../img/big.png) repeat-x scroll left top; padding:0; position:relative; }
+#bg { min-height:1154px; height:auto !important; height:1154px; }
+#dotcom { display:none; }
+#cbox p { position:relative; top:-10px; left:5px; }
+.tabi-r { background:transparent url(../img/tabi-bg.png) no-repeat scroll right top; height:31px; position:absolute; right:-7px; top:0; width:14px; }
+#tax .next { right:0px; top:10px; z-index:100; }
+.sub-level { width:115px; height:85px; }
+.tr { right:-2px; }
+.br { bottom:-9px; right:-2px; }
+.next { right:65px; z-index:2000; }
+.plus ul li { display:block; float:left; padding:0px; }
+.bagaj #slider a { background-position:expression(this.nextSibling?'left':'right');
+}
+#download { margin:0 10px 0 15%; }
+#acaunt { width:25%; }
+#navy li a { float:left; height:25px; line-height:25px; }
+.forward { line-height:25px; }
+#navy .karent { float:left; height:25px; }
+#links .comis { margin-right:40px; }
+#inner table .rb td.lb { background:url(../img/lb.gif) #F1F1F0 no-repeat right bottom; }
+.rc { background:url(../img/rb.gif) no-repeat left bottom; width:9px; height:7px; position:absolute; bottom:0px; left:17.9%; }
+.smallpic { padding:6px 2px 0 6px; width:84px; }
+#duble .dbl { display:none; }
+#duble .dbr { display:none; }
+#duble .dtr { display:none; }
+#duble div.dtl { display:none; }
+#peech, .atr, .abr { display:none; }
+#duble { background:url(../img/dub-top.gif) no-repeat left top; border:none; width:197px; padding-top:28px; }
+#duble div { background:url(../img/dub-bot.gif) no-repeat left bottom; padding-bottom:5px; }
+#inner #duble p { padding:0 10px; margin:0; border-left:1px solid #FFD000; border-right:1px solid #FFD000; width:175px; }
+#bount { height:134px; width:258px; background:url(../img/tablo-ie6.png) no-repeat left top; position:absolute; right:0; top:172px; }
+#tablo-c, #count, #dount, #tablo-r, #tablo-l { background:none; }
+#destination { left:7px; }
+#count { width:100% }
+#gps { left:23px; }
+#count #bill { position:absolute; left:0; top:0; }
+.buble { width:284px; background:url(../img/bub-top.png) no-repeat left top; border:none; padding-top:47px; position:absolute; top:680px; left:1%; }
+#wrapper .buble .b_wrapper { margin:0; padding-bottom:28px!important; background:url(../img/bub-bot.png) no-repeat left bottom!important; }
+.buble p { border-left:1px solid #843A04; border-right:1px solid #843A04; padding:0 10px; width:262px; margin:0; }
+.inbl { position:absolute; width:11px; height:11px; background:url(../img/inbl.gif) no-repeat left top; left:0px; bottom:-5px; }
+.inbr { position:absolute; width:11px; height:11px; background:url(../img/inbr.gif) no-repeat left top; right:0px; bottom:-5px; }
+.order select, .order option { border:none !important; bckground:none; }
+.ssr { top:1px; }
+.bagaj { /*	position:absolute;
+	top:190px;
+	left:20px;*/
+}
+p.nav { margin-top:55px; }
+.sbmit { margin-top:10px; }
+/* стили необходимые для работы скрипта */
+select.srReplacedSelect { width: 1px; position: absolute; left: -999em; }
+ul.srList { list-style:none; padding: 3px 0 0 0; /* лучше всего техника работает 
+	   для элементов фиксированной ширины
+	   хотя при некоторых дополнителных
+	   требованиях к изображению и небольшом
+	   изменение стилей ее можно применять
+	   и для резиновых select`ов */
+
+	margin:1px 0 0 0; /* поскольку используется техника
+	   Sliding Doors элемент хорошо переносит
+	   масштабирование шрифтов, для этого
+	   его высоту нужно задать в em */
+	height:20px; background:url(../img/input-bg.png) repeat-x left top; }
+ul.srList li { display:none; line-height:17px; padding:0 0 0 10px; width:80%; margin:0; height:17px; background:#fff; }
+ul.srList li.srHoverLi { }
+ul.srBlur { background:url(../img/input-bg.png) repeat-x left top; }
+ul.srFocus, ul.srHoverUl { /* чтобы при наведении мышки
+	   или получении фокуса элемент
+	   не оставался на некоторое время без фона,
+	   и для ускорения загрузки, совмещаем
+	   два фоновых изображения в одном и изменяем его
+	   подвигая на 300 пикслей влево */
+	background:url(../img/input-bg.png) repeat-x left top; }
+ul.srBlur li.srSelectedLi { display:block; }
+ul.srFocus li.srSelectedLi, ul.srHoverUl li.srSelectedLi { display:block; }
+ul.srExpanded li.srSelectedLi { display:block; }
+ul.srExpanded { position:relative; /* при разворачивании списка,
+	   нужно выдвинуть его на первый
+	   план, иначе другие элементы будут
+	   перекрывать опции */
+	z-index:1000; }
+ul.srExpanded li { display:block; }
+li.h_m_0 { margin-left:12%; }
+#ws_0 .h_m_1, #ws_0 .h_m_2 { margin-left:1.5%; }
+#ws_1 .h_m_1, #ws_1 .h_m_2 { margin-left:1.5%; }
+#ws_2 .h_m_1, #ws_2 .h_m_2 { margin-left:1.5%; }
+.sub-level li { float:none; }
+.dat .dr .name1 { float:left; margin-left:7%; position:relative; width:40%; }
+.dat .dr .name { float:left; width:38%; }
+.dat .dr .name1 .il { left:-1px; }
+.dopoln .area { height:60px; }
+.atl { top:1px; }
+.abl { bottom:-9px; }
+#ws_0 .sbmit { margin-top:33px; }
+#ws_1 .sbmit { margin-top:30px; }
+#wrapper .slid a.selected, #wrapper .slid1 a.selected { background: url(../img/libg.gif) no-repeat left top; }
+#wrapper #tax a.selected { background: url(../img/libg1.png) no-repeat center top; width:100%; padding-left:0; padding-right:0; }
+a.selected sub { display:none; }
+a.selected sup { display:none; }
+.gps_wrap { left:10px; }
+.coord_wrap { left:0; }
+.gps_wrap sub { width:9px!important; left:-10px; }
+.gps_wrap sup { right:-6px; }
+.gps_wrap span { padding:0 0 0 19px; position:relative; left:-1px; }
+.rub { left:190px; }
+.order p { font-size:11px; }
+.carousel { margin:0 0 20px 35px; width:400px !important; }
+p.slide { width:45%; }
+.bagaj p { font-size:10px; }
+.ot, .do { width:40%; }
+.dat .dr .name { float:left; margin-right:7%; width:35%; }
+.dat .dr .name .ir { right:-3px; }
+.dat .dr .name1 { float:left; margin-left:2px; position:relative; width:35%; }
+.sub-level { background-color:#f9cb00; }
+#ws_1 .order .il, #ws_1 .order .ir, #ws_1 .order .order-r, #ws_1 .order .order-l { display:none; }
+div.short .il, div.short .ir {display:none;}
+.short .n_sub {left:0;}
+.order_top {width:132%;}
+#wrapper div.order input.submit { background: url(../img/sbmt1.png) no-repeat left top!important; }
+.tc_1 .name .il, .tc_2 .name .il, .tc_1 .name .ir, .tc_2 .name .ir {display:none;}
+#bbv .ir {float:right; margin-right:5.5%;}
+.order .il, .order .ir {display:none;}
+#wrapper .order input[type=text] { border:1px solid #ccc !important;}
+.short {margin-right:0!important;}
+.phonenum, .price_min {padding-left:5px;}
+.pig, .clock, .chair {margin-right:0!important;}
+div.plus {margin-left:6%!important;}
+.name shape {display:none!important;}
